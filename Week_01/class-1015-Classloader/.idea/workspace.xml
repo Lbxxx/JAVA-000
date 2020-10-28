@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c74c4bd-d968-4718-8d0f-29a33d992fff" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/gz_lianjia_settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iw50GTzYcpnecbGNU70WmJwOiz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2908046" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloClassLoader" />
+      <module name="class-1015" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloClassLoader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c74c4bd-d968-4718-8d0f-29a33d992fff" name="Default Changelist" comment="" />
+      <created>1602805588050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602805588050</updated>
+      <workItem from="1602805590902" duration="574000" />
+      <workItem from="1602818810343" duration="32000" />
+      <workItem from="1602819587138" duration="33000" />
+      <workItem from="1602924624924" duration="651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="74" key="#Notifications" timestamp="1602805642607">
+      <screen x="0" y="23" width="1344" height="772" />
+    </state>
+    <state x="272" y="74" key="#Notifications/-1920.-174.1920.1057/0.23.1344.772@0.23.1344.772" timestamp="1602805642607" />
+    <state x="272" y="74" key="#Project_Structure" timestamp="1602805813910">
+      <screen x="0" y="23" width="1344" height="772" />
+    </state>
+    <state x="272" y="74" key="#Project_Structure/-1920.-174.1920.1057/0.23.1344.772@0.23.1344.772" timestamp="1602805813910" />
+    <state x="521" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1603241071149">
+      <screen x="0" y="23" width="1344" height="776" />
+    </state>
+    <state x="521" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.-174.1920.1057/0.23.1344.776@0.23.1344.776" timestamp="1603241071149" />
+    <state width="1302" height="196" key="GridCell.Tab.0.bottom" timestamp="1602936094455">
+      <screen x="0" y="23" width="1344" height="772" />
+    </state>
+    <state width="1302" height="196" key="GridCell.Tab.0.bottom/-1920.-174.1920.1057/0.23.1344.772@0.23.1344.772" timestamp="1602936094455" />
+    <state width="1302" height="196" key="GridCell.Tab.0.bottom/0.23.1344.772@0.23.1344.772" timestamp="1602819620136" />
+    <state width="1302" height="196" key="GridCell.Tab.0.center" timestamp="1602936094454">
+      <screen x="0" y="23" width="1344" height="772" />
+    </state>
+    <state width="1302" height="196" key="GridCell.Tab.0.center/-1920.-174.1920.1057/0.23.1344.772@0.23.1344.772" timestamp="1602936094454" />
+    <state width="1302" height="196" key="GridCell.Tab.0.center/0.23.1344.772@0.23.1344.772" timestamp="1602819620136" />
+    <state width="1302" height="196" key="GridCell.Tab.0.left" timestamp="1602936094454">
+      <screen x="0" y="23" width="1344" height="772" />
+    </state>
+    <state width="1302" height="196" key="GridCell.Tab.0.left/-1920.-174.1920.1057/0.23.1344.772@0.23.1344.772" timestamp="1602936094454" />
+    <state width="1302" height="196" key="GridCell.Tab.0.left/0.23.1344.772@0.23.1344.772" timestamp="1602819620135" />
+    <state width="1302" height="196" key="GridCell.Tab.0.right" timestamp="1602936094455">
+      <screen x="0" y="23" width="1344" height="772" />
+    </state>
+    <state width="1302" height="196" key="GridCell.Tab.0.right/-1920.-174.1920.1057/0.23.1344.772@0.23.1344.772" timestamp="1602936094455" />
+    <state width="1302" height="196" key="GridCell.Tab.0.right/0.23.1344.772@0.23.1344.772" timestamp="1602819620136" />
+    <state x="160" y="23" key="SettingsEditor" timestamp="1602818836397">
+      <screen x="0" y="23" width="1344" height="772" />
+    </state>
+    <state x="160" y="23" key="SettingsEditor/-1920.-174.1920.1057/0.23.1344.772@0.23.1344.772" timestamp="1602806164227" />
+    <state x="160" y="23" key="SettingsEditor/0.23.1344.772@0.23.1344.772" timestamp="1602818836397" />
+  </component>
+</project>
