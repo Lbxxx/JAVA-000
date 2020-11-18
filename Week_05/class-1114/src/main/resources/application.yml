@@ -1,0 +1,20 @@
+student:
+  id: 1
+  name: linboxuan
+  enabled: true
+school:
+  enabled: true
+klass:
+  enabled: true
+
+spring:
+  datasource:
+    url: jdbc:mysql://10.26.27.54:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: 123456
+    hikari: # https://github.com/brettwooldridge/HikariCP (uses milliseconds for all time values)
+      maximumPoolSize: 10
+      minimumIdle: 2
+      idleTimeout: 600000
+      connectionTimeout: 30000
+      maxLifetime: 1800000
