@@ -29,7 +29,7 @@
           CALL insert_order();
           ```
 
-     - 使用sql单条循环插入，耗时：22 s 996 ms
+     - 使用sql单条循环插入，耗时：1 h 4 m 30 s 130 ms
 
        ```sql
        
