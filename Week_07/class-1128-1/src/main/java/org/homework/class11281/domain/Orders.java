@@ -7,6 +7,7 @@ import javax.persistence.Table;
 import java.math.BigDecimal;
 import java.util.Date;
 
+
 @Table(name = "orders")
 public class Orders {
     /**
@@ -45,13 +46,13 @@ public class Orders {
      * 支付方式 0:到付 1:在线 2:邮局 3:公司转帐
      */
     @Column(name = "payment_way")
-    private Boolean paymentWay;
+    private Integer paymentWay;
 
     /**
      * 货到付款方式.1现金,2POS刷卡
      */
     @Column(name = "payment_cash")
-    private Boolean paymentCash;
+    private Integer paymentCash;
 
     /**
      * 送货时间
@@ -63,19 +64,19 @@ public class Orders {
      * 是否电话确认 1:是  0: 否
      */
     @Column(name = "isConfirm")
-    private Boolean isconfirm;
+    private Integer isconfirm;
 
     /**
      * 支付状态 :0到付1,待付款,2已付款,3待退款,4退款成功,5退款失败
      */
     @Column(name = "is_paiy")
-    private Boolean isPaiy;
+    private Integer isPaiy;
 
     /**
      * 订单状态 0:提交订单 1:仓库配货 2:商品出库 3:等待收货 4:完成 5待退货 6已退货
      */
     @Column(name = "state")
-    private Boolean state;
+    private Integer state;
 
     /**
      * 订单生成时间
@@ -190,7 +191,7 @@ public class Orders {
      *
      * @return payment_way - 支付方式 0:到付 1:在线 2:邮局 3:公司转帐
      */
-    public Boolean getPaymentWay() {
+    public Integer getPaymentWay() {
         return paymentWay;
     }
 
@@ -199,7 +200,7 @@ public class Orders {
      *
      * @param paymentWay 支付方式 0:到付 1:在线 2:邮局 3:公司转帐
      */
-    public void setPaymentWay(Boolean paymentWay) {
+    public void setPaymentWay(Integer paymentWay) {
         this.paymentWay = paymentWay;
     }
 
@@ -208,7 +209,7 @@ public class Orders {
      *
      * @return payment_cash - 货到付款方式.1现金,2POS刷卡
      */
-    public Boolean getPaymentCash() {
+    public Integer getPaymentCash() {
         return paymentCash;
     }
 
@@ -217,7 +218,7 @@ public class Orders {
      *
      * @param paymentCash 货到付款方式.1现金,2POS刷卡
      */
-    public void setPaymentCash(Boolean paymentCash) {
+    public void setPaymentCash(Integer paymentCash) {
         this.paymentCash = paymentCash;
     }
 
@@ -244,7 +245,7 @@ public class Orders {
      *
      * @return isConfirm - 是否电话确认 1:是  0: 否
      */
-    public Boolean getIsconfirm() {
+    public Integer getIsconfirm() {
         return isconfirm;
     }
 
@@ -253,7 +254,7 @@ public class Orders {
      *
      * @param isconfirm 是否电话确认 1:是  0: 否
      */
-    public void setIsconfirm(Boolean isconfirm) {
+    public void setIsconfirm(Integer isconfirm) {
         this.isconfirm = isconfirm;
     }
 
@@ -262,7 +263,7 @@ public class Orders {
      *
      * @return is_paiy - 支付状态 :0到付1,待付款,2已付款,3待退款,4退款成功,5退款失败
      */
-    public Boolean getIsPaiy() {
+    public Integer getIsPaiy() {
         return isPaiy;
     }
 
@@ -271,7 +272,7 @@ public class Orders {
      *
      * @param isPaiy 支付状态 :0到付1,待付款,2已付款,3待退款,4退款成功,5退款失败
      */
-    public void setIsPaiy(Boolean isPaiy) {
+    public void setIsPaiy(Integer isPaiy) {
         this.isPaiy = isPaiy;
     }
 
@@ -280,7 +281,7 @@ public class Orders {
      *
      * @return state - 订单状态 0:提交订单 1:仓库配货 2:商品出库 3:等待收货 4:完成 5待退货 6已退货
      */
-    public Boolean getState() {
+    public Integer getState() {
         return state;
     }
 
@@ -289,7 +290,7 @@ public class Orders {
      *
      * @param state 订单状态 0:提交订单 1:仓库配货 2:商品出库 3:等待收货 4:完成 5待退货 6已退货
      */
-    public void setState(Boolean state) {
+    public void setState(Integer state) {
         this.state = state;
     }
 
